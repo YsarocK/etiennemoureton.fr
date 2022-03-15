@@ -3,7 +3,7 @@ import { useState } from 'preact/hooks'
 
 const Technos = () => {
   const [current, setCurrent] = useState('react')
-  const technos = ['react', 'vue', 'next', 'nuxt', 'three', 'typeScript']
+  const technos = ['react', 'vue', 'next', 'nuxt', 'three', 'typescript']
 
   return (
     <div className={style.technos}>

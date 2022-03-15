@@ -17,7 +17,7 @@ const Home = () => (
 				</div>
 				<p className={'league-spartan ' + style.heroSection__label}><span className={style.heroSection__label__text}>HI THERE </span>👋</p>
 				<h1 className={'league-spartan ' + style.heroSection__title}>Etienne,</h1>
-				<h2 className={'league-spartan ' + style.heroSection__subtitle}>Creative Developper</h2>
+				<h2 className={'league-spartan ' + style.heroSection__subtitle}>Creative Developer</h2>
 				<a className="cta cta--main" href="mailto:hello@etiennemoureton.fr">Me contacter</a>
 			</div>
 			<div className={style.heroSection__right}>
