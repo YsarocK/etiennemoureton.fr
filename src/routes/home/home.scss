@@ -2,12 +2,16 @@
 
 .home {
 	padding-bottom: 5rem !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 	.heroSection {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
 		height: 100vh;
+		width: 100%;
 
 		@include media-breakpoint-down(md) {
 			margin-top: 80px;
