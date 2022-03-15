@@ -28,7 +28,7 @@ const Home = () => (
 			<div className={style.projects__container}>
 				<div className={style.projects__content}>
 					<h2>Mon travail</h2>
-					<p>Du simple site vitrine à l'application complète, je construis <span>votre projet de A à Z</span>. Je me charge ou participer à l'élaboration de la maquette, de la mise en place du périmètre projet et discute avec vous de vos besoins.
+					<p>Du simple site vitrine à l'application complète, je construis <span>votre projet de A à Z</span>. Je me charge ou participe à l'élaboration de la maquette, de la mise en place du périmètre projet et discute avec vous de vos besoins.
 					<br></br>
 					<br></br>
 					Je travaille dans <span>une démarche d'éco-conception</span>. J'essaie au maximum (et quand c'est possible) de réduire l'impact écologique d'une page. Cela passe autant par le retrait de fonctions inutiles que par l'optimisation du code, le choix de l'hébergeur ou le travail sur les animations.
