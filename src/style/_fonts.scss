@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("/assets/fonts/LeagueSpartan-VariableFont_wght.ttf") format("ttf");
+}
+
+.playfair {
+  font-family: 'Playfair Display';
+}
+
+.league-spartan {
+  font-family: 'League Spartan';
+}

@@ -1,0 +1,119 @@
+@import './fonts';
+@import './breakpoints';
+
+:root {
+	--light-grey: #eee;
+	--mid-grey: rgba(0, 0, 0, 0.6);
+
+	--color--main: #9FA0FF;
+	--color--main--light: #E2E2FF;
+	--color--secondary: #DAB6FC;
+	--color--tertiary: #8151ae;
+
+	--spacing--big: 3rem;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #FAFAFA;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	.container {
+		padding: 0 10rem;
+
+		@include media-breakpoint-down(md) {
+			padding: 0 2rem;
+		}
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.cta {
+	width: fit-content;
+	margin-top: var(--spacing--big);
+	border-radius: 4px;
+	color: var(--color--tertiary);
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	transition: all 0.3s ease-in-out;
+
+	svg {
+		width: fit-content;
+		transition: fill 0.3s ease-in-out;
+
+		path {
+			transition: fill 0.3s ease-in-out;
+		}
+	}
+
+	&.cta--main {
+		padding: 1rem 2rem;
+		color: var(--color--tertiary);
+		background-color: var(--color--secondary);
+
+		svg {
+			height: 20px;
+			fill: var(--color--tertiary);
+
+			path {
+				fill: var(--color--tertiary);
+			}
+		}
+
+		&:hover {
+			background-color: var(--color--main--light);
+			color: #7576dd;
+
+			svg {
+				fill: #7576dd;
+	
+				path {
+					fill: #7576dd;
+				}
+			}
+		}
+	}
+
+	&.cta--secondary {
+		padding: 1rem 1.5rem;
+		color: #7576dd;
+		background-color: var(--color--main--light);
+		font-size: 0.9rem;
+
+		svg {
+			height: 17px;
+			fill: v#7576dd;
+
+			path {
+				fill: #7576dd;
+			}
+		}
+
+		&:hover {
+			background-color: var(--color--secondary);
+			color: var(--color--tertiary);
+
+			svg {
+				fill: var(--color--tertiary);
+	
+				path {
+					fill: var(--color--tertiary);
+				}
+			}
+		}
+	}
+}
